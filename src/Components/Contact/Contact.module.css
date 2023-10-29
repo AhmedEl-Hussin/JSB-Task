@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#Contact{
+    width: 100%;
+    padding-bottom: 50px;
+}
+
+.header{
+    width: 210px;
+    margin: auto;
+    text-align: center;
+    position: relative;
+}
+
+.Title{
+    font-size: 40px;
+    color: rgb(110, 145, 238);
+    position: relative;
+}
+
+.header::after{
+    content: '';
+    width: 30px;
+    height: 1.5px;
+    background-color: #6D91EE;
+    position: absolute;
+    top: 30%;
+    left: -7%;
+    transform: rotate( -40deg);
+}
+
+.header::before{
+    content: '';
+    width: 29px;
+    height: 1.5px;
+    background-color: #6D91EE;
+    position: absolute;
+    bottom: 29%;
+    left: -5%;
+    transform: rotate( 40deg);
+}
+
+.Title::after{
+    content: '';
+    width: 29px;
+    height: 1.5px;
+    background-color: #6D91EE;
+    position: absolute;
+    top: 47px;
+    right: -6%;
+    transform: rotate(40deg);
+}
+
+.Title::before{
+    content: '';
+    width: 29px;
+    height: 1.5px;
+    background-color: #6D91EE;
+    position: absolute;
+    bottom: 29%;
+    right: -6%;
+    transform: rotate(-40deg);
+}
+
+
+
+.inputs{
+    background-color: rgb(207, 220, 255);
+    border: none;
+    width: 100%;
+}
+
+.inputs::placeholder{
+    color: black;
+    font-size: 12px;
+}
+
+.btns{
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+    background-color: transparent;
+    border: 2px solid #6D91EE;
+}
+
+.spanIcons{
+    margin-top: 40px;
+}
+.icon{
+    color: rgb(81, 128, 246);
+}
+.span{
+    font-size: 13px;
+    margin-left: 15px;
+}
